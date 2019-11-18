@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="tab_monument">Monument</string>
+    <string name="tab_hotel">Hotel</string>
+    <string name="tab_night">Night</string>
+    <string name="tab_shopping">Shopping</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_img_image">image</string>
+
+    <!--   MONUMENTS  -->
+    <string-array name="monument_names_array">
+        <item>Palais du Luxembourg</item>
+        <item>Centre Pompidou</item>
+        <item>Les Invalides</item>
+        <item>Opéra Garnier</item>
+    </string-array>
+
+    <string-array name="monument_description_array">
+        <item>The Luxembourg Palace, surrounded by its beautiful gardens, was built in 1617.
+            It owes its name to the Duke of Piney-Luxembourg, landlord of a domain which was
+            later acquired by Maria de Medici,
+            widow of the King of France, Henri IV. \n
+            The Italian-born Queen wished to create a residence to remind her of the Pitti
+            Palace as well as
+            establishing gardens evoking those of Boboli in Florence. \n\n
+            Architect Salomon de la Brosse was entrusted the construction of the palace.
+            It now houses the French Senate, the upper house of Parliament.
+            The palace opens onto a beautiful park, actually one of my favourites in Paris.
+            I love coming here in Spring and in Autumn.
+            If you have kids it also has a brilliant play area.</item>
+        <item>The Pompidou Centre in the district of Beaubourg is one of France’s most visited museums.
+            Not far from the busy shopping precinct of Les Halles,
+            the Pompidou centre was designed in the style of high-tech architecture.
+            With its colour-coded pipes and ducts, the design of the modern art museum has
+            been the source of much controversy since its construction. \n\n
+            Inaugurated in 1977, some see it as an eyesore, others praise its architectural audacity.
+            Honestly I don’t really know what to think of it, that’s why I much prefer to climb on
+            the top floor to enjoy the panoramic views over the roofs of Paris where it also
+            has a famous restaurant.</item>
+        <item>Now this is a place I’m much more familiar with as I used to work as a
+            French teacher in a nearby language school. \n\n
+            The grand complex of Les Invalides on the Left Bank is easily recognisable by
+            its magnificent golden dome reaching 107 metres high. It was built by Louis XIV to
+            house the homeless and wounded veterans of the King’s army. \n\n
+            Today the Hôtel des Invalides is famous for housing the tomb of French emperor
+            Napoleon Bonaparte. The Hôtel des Invalides also hosts three museums: the Army museum,
+            the Order of the Liberation museum, and the Relief map museum.</item>
+        <item>Charles Garnier built the opulent Paris Opera house from 1861 to 1875 during the
+            reign of Napoleon III. It is part of the great reconstruction of Paris by Baron
+            Haussmann during the Second Empire. \n\n
+            The auditorium seats nearly 2,000 people and features a grand chandelier and a
+            fine ceiling painting by Marc Chagall. You have to visit the interior of the opera house,
+            including the astonishing great staircase. \n\n
+            At certain times of the day you can pay to look around or have a guided tour.
+            It’s just mind-blowing! You can sometimes get last minute tickets for operas and ballets
+            but it is best to book in advance which you can do online.</item>
+    </string-array>
+
+    <!--  END MONUMENTS   -->
+
+    <!--   SHOPPING   -->
+    <string-array name="shopping_names_array">
+        <item>Hermès</item>
+        <item>Guerlain</item>
+        <item>Galeries Lafayette Champs-Elysées</item>
+        <item>Louis Vuitton Maison Champs-Élysées</item>
+    </string-array>
+
+    <string-array name="shopping_description_array">
+        <item>naugurated in 2018, the Hermès flagship in the Golden Triangle was renovated with
+            great detail over two years. The shop now spans three levels and has 5,900 square feet
+            of retail space. But what makes this particular location special are the wood-paneled
+            façade and the gilded lettering on its unmistakable sign—both now beautifully restored.
+            Inside, the design mixes airy and contemporary touches (gray-blue marble, mosaic floors)
+            with traditional details and, of course, the brand\'s signature orange.</item>
+        <item>No Guerlain store has the history of the perfumer\'s iconic outpost on the Champs-Elysées.
+            The interior was revamped by architect Peter Marino five years ago, and today it features
+            an array of Guerlain motifs, from golden Napoleonic bees to the Louis XIV sunburst emblem
+            that has long adorned face powder compacts. Philippe Starck chandeliers offset mirrored
+            ceilings and deep golden and mahogany tones in one room, while resin-coated table collages
+            by Peter Dayton offer a splash of color in the café. The shop is worth a visit as much
+            for the collection of products as for the show-stopping design.</item>
+        <item>Family-owned retailer Galeries Lafayette reclaimed an Art Deco landmark (formerly the
+            Virgin Megastore) on the Champs-Elysées and transformed it into a concept flagship with
+            the help of Danish architect Bjarke Ingels. In a space spanning nearly 70,000 square feet
+            and four floors, the shop eschews the usual boundaries in the retail experience, mixing
+            goods from multiple categories for men and women rather than partitioning things into
+            dedicated corners. The experience is meant to be fluid, encouraging shoppers to weave
+            seamlessly from fashion to food to accessories.</item>
+        <item>For die-hard Louis Vuitton fans (and fans of luxury more generally), there\'s no outpost
+            more symbolic or prestigious than the brand\'s impressive perch on the well-heeled corner
+            of the Champs-Elysées and the avenue George V. The largest Louis Vuitton location in the
+            world, the five-floor store occupies a listed Art Deco building with a period dome visible
+            from both ends of the avenue. You\'ll find everything from traditional leather goods, handbags
+            and ready-to-wear, to homewares, jewelry, and even art books.</item>
+    </string-array>
+    <!--  END SHOPPING   -->
+
+    <!--   HOTEL   -->
+    <string-array name="hotel_names_array">
+        <item>Hôtel Belles Rives</item>
+        <item>La Coorniche</item>
+        <item>Hotel Byblos</item>
+        <item>Hotel du Palais</item>
+    </string-array>
+
+    <string-array name="hotel_description_array">
+        <item>La belle France is as much about where you stay as what you eat and do.
+            Hotels in this ravishingly varied land of hilltop villages, alpine peaks,
+            cosmopolitan cities and vineyard-stitched countryside are hopelessly enchanting –
+            and never more so than in summer when that chic lifestyle which the French do
+            so enviably well moves outside. \n\n
+            Think luxurious treehouses in the rural Dordogne,
+            design-hot villas on the Atlantic and Med seashores, historic chateaux with
+            romantic dining beneath the stars, ancient riverside mills and urban hotels with
+            rooftop bars – a collection of sublime summertime properties that have been rated
+            and reviewed by Telegraph Travel’s France experts.</item>
+        <item>This ravishing boutique getaway is the height of seaside sophistication. Philippe
+            Starck’s bold white interior evokes local oyster farming, and Europe’s highest sand
+            dune looms large as next-door neighbour. Outstanding seafood dining and sea-and-sand
+            views at every turn are the icing on the cake. This hotel has story. It languishes in a
+            traditional Basque, 1930s hunting lodge that gazes dreamily out onto the big blue seas
+            of the Atlantic Ocean. The public beach is a short walk – if you can drag yourself away
+            from the impossibly stylish infinity pool with cushioned sun loungers and incredible sea
+            views that is. Staff can arrange boat taxis, seafaring picnics, visits to local oyster
+            farms, bike rental and all sorts.</item>
+        <item>Since 1967, the Byblos has come on like the Med\'s poshest sea-side village.
+            A series of what look like fisherman\'s houses - all ochre and harmonious -
+            unwind round the pool, and are themselves inundated with Med greenery. the hotel\'s
+            focus of attention is the heated outdoor pool. Somewhere nearby is France\'s first Sisley
+            spa, whose Salon Libanais - all 17th-century wooden marquetry and wondrously carved panels -
+            hosted at least part of Mick and Bianca\'s wedding night. You\'ll maybe need it after a
+            night in the Caves-du-Roy, France\'s most celeb-filled night-club. The nearest beaches
+            are a 10-minute walk, the more famous Pampelonne stretch 15 minutes by car.</item>
+        <item>@drawable/hotel_du_palais</item>
+    </string-array>
+    <!--  END HOTEL   -->
+
+    <!--   NIGHT   -->
+    <string-array name="night_names_array">
+        <item>Les berges de Seine</item>
+        <item>Quai Saint-Bernard</item>
+        <item>Bassin de la Villette</item>
+        <item>Les Bateaux Mouches</item>
+    </string-array>
+
+    <string-array name="night_description_array">
+        <item>Les berges de Seine is a new Parisian project that has transformed an old waterfront
+            of the left (south) bank of the Seine river. \n\n
+            The new area, starting at the Alma bridge, is a place to chill out,
+            exercise as well to eat and drink. \n\n
+            It goes up to the Solférino bridge that connects the left bank with famous Tuilleries Gardens.
+            During the night, Les berges de Seine waterfront offers a view to the golden-shining
+            Eiffel Tower, the famous Louvre and Orsay Museums and the art nouveau building
+            called Grand Palais.
+            Also, there are good restaurants and bars, where the night visitor can grab a
+            drink while enjoying the reflection of lights in the Seine river.
+
+</item>
+        <item>Another popular waterfront is called Quai Saint-Bernard.
+            It starts just behind the famous Notre-Dame Cathedral and is one of the more
+            popular places for picnics.During summer nights, Quai Saint-Bernard is full of young
+            people having fun while enjoying the night view to the Island of Saint Louis – the oldest
+            part of Paris.
+            In addition, during the month of July, Quai Saint-Bernard hosts a special dance festival.
+            Each evening, three dance styles are presented in the rounded concrete area next to the river.
+            And, the participation is free.
+            So, what about an Argentinian tango class, entertaining Irish dance, or seductive salsa?
+            Grab a beer and dive into the night dance fever!</item>
+        <item>North of Paris, you can find a water canal with a small port that is called Bassin
+            de la Villette.
+            Both of its waterfronts are popular meeting points for young, artistic people.
+            They are playing music, singing, and drinking.
+            In addition, the port is full of cultural attractions –  a pair of artistic cinemas
+            called MK2 offer a large scale of interesting movies to see.
+            You’ll see numerous boats bars, anchoring each summer in the canal, watching various
+            entertaining concerts and shows.</item>
+        <item>An alternative to the night spent by enjoying riverfront attractions is 
+            to try some of the Parisian Cruise tours.
+            There are two main cruise lines, Bateaux Mouches and Les Vedettes du pont Neuf.
+            Both offer tours around the main monuments, accompanied by a detailed information.</item>
+    </string-array>
+    <!--  END NIGHT   -->
+
+</resources>

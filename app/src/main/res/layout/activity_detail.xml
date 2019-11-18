@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/large_16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_place"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="@dimen/image_large_height"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/desc_img_image" />
+
+        <TextView
+            android:id="@+id/tv_place_description"
+            android:layout_marginTop="@dimen/medium_8dp"
+            android:layout_width="match_parent"
+            android:padding="@dimen/medium_8dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_height="wrap_content"
+            tools:text="description" />
+    </LinearLayout>
+</ScrollView>
